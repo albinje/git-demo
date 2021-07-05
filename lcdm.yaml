@@ -1,0 +1,95 @@
+theory:
+  classy:
+    extra_args:
+      N_ncdm: 1
+      N_ur: 2.0328
+    path: /home/francy/Francy/cobaya/alpha_constraints/oscillatory/class_public      
+likelihood:
+  sn.pantheon: null
+  bao.sixdf_2011_bao: null
+  bao.sdss_dr7_mgs: null
+  bao.sdss_dr12_consensus_bao: null
+params:
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref:
+      dist: norm
+      loc: 3.05
+      scale: 0.001
+    proposal: 0.001
+    latex: \log(10^{10} A_\mathrm{s})
+    drop: true
+  A_s:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    latex: A_\mathrm{s}
+  n_s:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref:
+      dist: norm
+      loc: 0.965
+      scale: 0.004
+    proposal: 0.002
+    latex: n_\mathrm{s}
+  H0:
+    prior:
+      min: 20
+      max: 100
+    ref:
+      dist: norm
+      loc: 67
+      scale: 2
+    proposal: 2
+    latex: H_0
+  omega_b:
+    prior:
+      min: 0.005
+      max: 0.1
+    ref:
+      dist: norm
+      loc: 0.0224
+      scale: 0.0001
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+  omega_cdm:
+    prior:
+      min: 0.001
+      max: 0.99
+    ref:
+      dist: norm
+      loc: 0.12
+      scale: 0.001
+    proposal: 0.0005
+    latex: \Omega_\mathrm{c} h^2
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  omegamh2:
+    derived: 'lambda Omega_m, H0: Omega_m*(H0/100)**2'
+    latex: \Omega_\mathrm{m} h^2
+  m_ncdm:
+    value: 0.06
+    renames: mnu
+  Omega_Lambda:
+    latex: \Omega_\Lambda
+  YHe:
+    latex: Y_\mathrm{P}
+  tau_reio:
+    prior:
+      min: 0.01
+      max: 0.8
+    ref:
+      dist: norm
+      loc: 0.055
+      scale: 0.006
+    proposal: 0.003
+    latex: \tau_\mathrm{reio}
+  z_reio:
+    latex: z_\mathrm{re}
+sampler:
+  mcmc:
+    covmat: auto
+    
+output: chains_lcdm1/lcdm            
