@@ -3,7 +3,7 @@ theory:
     extra_args:
       N_ncdm: 1
       N_ur: 2.0328
-    path: /home/francy/Francy/cobaya/alpha_constraints/oscillatory/class_public      
+    path: /home/francy/cobaya/alpha_constraints/oscillatory/class_public      
 likelihood:
   sn.pantheon: null
   bao.sixdf_2011_bao: null
