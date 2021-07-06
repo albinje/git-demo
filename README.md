@@ -24,7 +24,6 @@ https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/la
 
 &nbsp;
 
----
 
 <a name='cosmomc'></a>
 ## CosmoMc
