@@ -22,8 +22,6 @@ Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework f
 
 https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html
 
-&nbsp;
-
 
 <a name='cosmomc'></a>
 ## CosmoMc
