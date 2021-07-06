@@ -47,7 +47,7 @@ Another tool
 
 https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html
 
-
+----
 
 | Installation  | Website |
 | ------------- | ------------- |
