@@ -12,5 +12,5 @@ https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/la
 | Installation  | Website |
 | ------------- | ------------- |
 | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html  | https://cobaya.readthedocs.io/en/latest/  |
-| Content Cell  | Content Cell  |
+| new cell  | Content Cell  |
 
