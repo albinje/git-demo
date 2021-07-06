@@ -31,7 +31,6 @@ Cosmological Monte Carlo
 
 https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html
 
----
 <a name='monte'></a>
 ## Monte Python
 Another tool
