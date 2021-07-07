@@ -33,7 +33,7 @@ https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/la
 
 <a name='monte'></a>
 ## Monte Python
-Another tool
+Another too for parameter estimationl
 <a name='monte_install'></a>
 #### Installation
 
