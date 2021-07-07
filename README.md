@@ -21,8 +21,8 @@ Cobaya (code for bayesian analysis, and Spanish for Guinea Pig) is a framework f
 #### Installation
 
 https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html
-&nbsp;
----
+
+
 <a name='cosmomc'></a>
 ## CosmoMc
 Cosmological Monte Carlo 
@@ -30,8 +30,7 @@ Cosmological Monte Carlo
 #### Installation
 
 https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html
-&nbsp;
----
+
 <a name='monte'></a>
 ## Monte Python
 Another tool
@@ -44,5 +43,5 @@ https://cobaya.readthedocs.io/en/latest/   | https://cobaya.readthedocs.io/en/la
 | Installation  | Website |
 | ------------- | ------------- |
 | https://cobaya.readthedocs.io/en/latest/installation_cosmo.html  | https://cobaya.readthedocs.io/en/latest/  |
-| new cell  | Content Cell  |
+| new cell1  | website address  |
 
