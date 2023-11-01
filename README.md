@@ -7,16 +7,15 @@ With TreeCorr, to get 3d-2pcf, one has to use the metric (metric defining space)
 
 **Input format** - (ra, dec, r) where r is the comoving distance.
 
-In the Rperp metric, the metric separation is $r_{\perp}$. Even though 2D binning is not available with Rperp, there is an argument called 'min_rpar' and 'max_rpar' through which we can loop over r_par.
+In the Rperp metric, the metric separation is $r_{\perp}$. Even though 2D binning is not available with Rperp, there is an argument called 'min_rpar' and 'max_rpar' through which we can loop over $r_{parallel}$.
 
 For our case with input format = (ra, dec, z), we can restrict to pairs that are separated by a particular redshift range by using (min_rpar, max_rpar). Then we have to do binning in $r_{\perp}$ ( by defining min_sep, max_sep, bin_width). 
 
-In the output of TreeCorr 2pcf, we get $\xi$ as a function of $r_{\perp}$ ($\delta \theta$)) for the choice of (min_rpar, max_rpar), which we have defined earlier.
+In the output of TreeCorr 2pcf, we get $\xi$ as a function of $r_{\perp}$ ($\Delta \theta$) for the choice of (min_rpar, max_rpar), which we have defined earlier.
 
 For a test, I used the input data set (DES sim data) provided with TreeCorr, which has 390k objects with (ra, dec, z).
 
 
-![test_data](https://github.com/albinje/git-demo/assets/87002586/26e74a5f-0a8e-4393-abea-7e9563c2d281)
 
 
 The plot depicts 2pcf vs $r_{\perp}$ for various redshift ranges.
