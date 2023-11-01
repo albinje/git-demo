@@ -16,6 +16,7 @@ In the output of TreeCorr 2pcf, we get $\xi$ as a function of $r_{\perp}$ ($\del
 For a test, I used the input data set (DES sim data) provided with TreeCorr, which has 390k objects with (ra, dec, z).
 
 
+![test_data](https://github.com/albinje/git-demo/assets/87002586/26e74a5f-0a8e-4393-abea-7e9563c2d281)
 
 
 The plot depicts 2pcf vs $r_{\perp}$ for various redshift ranges.
